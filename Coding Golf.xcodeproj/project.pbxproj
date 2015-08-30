@@ -14,6 +14,7 @@
 		B5264DD41B92878600C3F68A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5264DCD1B92878600C3F68A /* ViewController.m */; };
 		B5264DE11B92883D00C3F68A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5264DDD1B92883D00C3F68A /* LaunchScreen.xib */; };
 		B5264DE21B92883D00C3F68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5264DDF1B92883D00C3F68A /* Main.storyboard */; };
+		B5264DE41B928B5F00C3F68A /* Code Golf Instructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B5264DE31B928B5F00C3F68A /* Code Golf Instructions.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B5264DCD1B92878600C3F68A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Coding Golf/ViewController.m"; sourceTree = SOURCE_ROOT; };
 		B5264DDE1B92883D00C3F68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Coding Golf/Base.lproj/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
 		B5264DE01B92883D00C3F68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Coding Golf/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		B5264DE31B928B5F00C3F68A /* Code Golf Instructions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Code Golf Instructions.rtf"; sourceTree = "<group>"; };
 		B598A7C61B91647B00EAA188 /* Coding Golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coding Golf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -43,6 +45,7 @@
 		B598A7BD1B91647B00EAA188 = {
 			isa = PBXGroup;
 			children = (
+				B5264DE31B928B5F00C3F68A /* Code Golf Instructions.rtf */,
 				B5264DC91B92878600C3F68A /* Images.xcassets */,
 				B598A7C81B91647B00EAA188 /* Coding Golf */,
 				B598A7C71B91647B00EAA188 /* Products */,
@@ -141,6 +144,7 @@
 				B5264DE11B92883D00C3F68A /* LaunchScreen.xib in Resources */,
 				B5264DE21B92883D00C3F68A /* Main.storyboard in Resources */,
 				B5264DD11B92878600C3F68A /* Images.xcassets in Resources */,
+				B5264DE41B928B5F00C3F68A /* Code Golf Instructions.rtf in Resources */,
 				B5264DD21B92878600C3F68A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

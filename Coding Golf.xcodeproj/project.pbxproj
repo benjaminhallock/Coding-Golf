@@ -7,50 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B598A7CC1B91647B00EAA188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B598A7CB1B91647B00EAA188 /* main.m */; };
-		B598A7CF1B91647B00EAA188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B598A7CE1B91647B00EAA188 /* AppDelegate.m */; };
-		B598A7D21B91647B00EAA188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598A7D11B91647B00EAA188 /* ViewController.m */; };
-		B598A7D51B91647B00EAA188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B598A7D31B91647B00EAA188 /* Main.storyboard */; };
-		B598A7D71B91647B00EAA188 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B598A7D61B91647B00EAA188 /* Images.xcassets */; };
-		B598A7DA1B91647B00EAA188 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B598A7D81B91647B00EAA188 /* LaunchScreen.xib */; };
-		B598A7E61B91647B00EAA188 /* JimmyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B598A7E51B91647B00EAA188 /* JimmyKitTests.m */; };
+		B5264DCE1B92878600C3F68A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5264DC31B92878600C3F68A /* AppDelegate.m */; };
+		B5264DD11B92878600C3F68A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5264DC91B92878600C3F68A /* Images.xcassets */; };
+		B5264DD21B92878600C3F68A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5264DCA1B92878600C3F68A /* Info.plist */; };
+		B5264DD31B92878600C3F68A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5264DCB1B92878600C3F68A /* main.m */; };
+		B5264DD41B92878600C3F68A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5264DCD1B92878600C3F68A /* ViewController.m */; };
+		B5264DE11B92883D00C3F68A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5264DDD1B92883D00C3F68A /* LaunchScreen.xib */; };
+		B5264DE21B92883D00C3F68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5264DDF1B92883D00C3F68A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B598A7E01B91647B00EAA188 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B598A7BE1B91647B00EAA188 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B598A7C51B91647B00EAA188;
-			remoteInfo = JimmyKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		B5264DC21B92878600C3F68A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Coding Golf/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		B5264DC31B92878600C3F68A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Coding Golf/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		B5264DC91B92878600C3F68A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Coding Golf/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		B5264DCA1B92878600C3F68A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Coding Golf/Info.plist"; sourceTree = SOURCE_ROOT; };
+		B5264DCB1B92878600C3F68A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Coding Golf/main.m"; sourceTree = SOURCE_ROOT; };
+		B5264DCC1B92878600C3F68A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Coding Golf/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		B5264DCD1B92878600C3F68A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Coding Golf/ViewController.m"; sourceTree = SOURCE_ROOT; };
+		B5264DDE1B92883D00C3F68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Coding Golf/Base.lproj/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
+		B5264DE01B92883D00C3F68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Coding Golf/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 		B598A7C61B91647B00EAA188 /* Coding Golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coding Golf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B598A7CA1B91647B00EAA188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B598A7CB1B91647B00EAA188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B598A7CD1B91647B00EAA188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B598A7CE1B91647B00EAA188 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B598A7D01B91647B00EAA188 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B598A7D11B91647B00EAA188 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B598A7D41B91647B00EAA188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B598A7D61B91647B00EAA188 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B598A7D91B91647B00EAA188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B598A7DF1B91647B00EAA188 /* Coding GolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coding GolfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B598A7E41B91647B00EAA188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B598A7E51B91647B00EAA188 /* JimmyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JimmyKitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B598A7C31B91647B00EAA188 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B598A7DC1B91647B00EAA188 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +43,8 @@
 		B598A7BD1B91647B00EAA188 = {
 			isa = PBXGroup;
 			children = (
-				B598A7C81B91647B00EAA188 /* JimmyKit */,
-				B598A7E21B91647B00EAA188 /* JimmyKitTests */,
+				B5264DC91B92878600C3F68A /* Images.xcassets */,
+				B598A7C81B91647B00EAA188 /* Coding Golf */,
 				B598A7C71B91647B00EAA188 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,48 +53,30 @@
 			isa = PBXGroup;
 			children = (
 				B598A7C61B91647B00EAA188 /* Coding Golf.app */,
-				B598A7DF1B91647B00EAA188 /* Coding GolfTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B598A7C81B91647B00EAA188 /* JimmyKit */ = {
+		B598A7C81B91647B00EAA188 /* Coding Golf */ = {
 			isa = PBXGroup;
 			children = (
-				B598A7CD1B91647B00EAA188 /* AppDelegate.h */,
-				B598A7CE1B91647B00EAA188 /* AppDelegate.m */,
-				B598A7D01B91647B00EAA188 /* ViewController.h */,
-				B598A7D11B91647B00EAA188 /* ViewController.m */,
-				B598A7D31B91647B00EAA188 /* Main.storyboard */,
-				B598A7D61B91647B00EAA188 /* Images.xcassets */,
-				B598A7D81B91647B00EAA188 /* LaunchScreen.xib */,
+				B5264DC21B92878600C3F68A /* AppDelegate.h */,
+				B5264DC31B92878600C3F68A /* AppDelegate.m */,
+				B5264DDD1B92883D00C3F68A /* LaunchScreen.xib */,
+				B5264DDF1B92883D00C3F68A /* Main.storyboard */,
+				B5264DCC1B92878600C3F68A /* ViewController.h */,
+				B5264DCD1B92878600C3F68A /* ViewController.m */,
 				B598A7C91B91647B00EAA188 /* Supporting Files */,
 			);
+			name = "Coding Golf";
 			path = JimmyKit;
 			sourceTree = "<group>";
 		};
 		B598A7C91B91647B00EAA188 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B598A7CA1B91647B00EAA188 /* Info.plist */,
-				B598A7CB1B91647B00EAA188 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B598A7E21B91647B00EAA188 /* JimmyKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				B598A7E51B91647B00EAA188 /* JimmyKitTests.m */,
-				B598A7E31B91647B00EAA188 /* Supporting Files */,
-			);
-			path = JimmyKitTests;
-			sourceTree = "<group>";
-		};
-		B598A7E31B91647B00EAA188 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B598A7E41B91647B00EAA188 /* Info.plist */,
+				B5264DCA1B92878600C3F68A /* Info.plist */,
+				B5264DCB1B92878600C3F68A /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,24 +101,6 @@
 			productReference = B598A7C61B91647B00EAA188 /* Coding Golf.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B598A7DE1B91647B00EAA188 /* Coding GolfTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B598A7EC1B91647B00EAA188 /* Build configuration list for PBXNativeTarget "Coding GolfTests" */;
-			buildPhases = (
-				B598A7DB1B91647B00EAA188 /* Sources */,
-				B598A7DC1B91647B00EAA188 /* Frameworks */,
-				B598A7DD1B91647B00EAA188 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B598A7E11B91647B00EAA188 /* PBXTargetDependency */,
-			);
-			name = "Coding GolfTests";
-			productName = JimmyKitTests;
-			productReference = B598A7DF1B91647B00EAA188 /* Coding GolfTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +112,6 @@
 				TargetAttributes = {
 					B598A7C51B91647B00EAA188 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					B598A7DE1B91647B00EAA188 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = B598A7C51B91647B00EAA188;
 					};
 				};
 			};
@@ -189,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				B598A7C51B91647B00EAA188 /* Coding Golf */,
-				B598A7DE1B91647B00EAA188 /* Coding GolfTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B598A7D51B91647B00EAA188 /* Main.storyboard in Resources */,
-				B598A7DA1B91647B00EAA188 /* LaunchScreen.xib in Resources */,
-				B598A7D71B91647B00EAA188 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B598A7DD1B91647B00EAA188 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B5264DE11B92883D00C3F68A /* LaunchScreen.xib in Resources */,
+				B5264DE21B92883D00C3F68A /* Main.storyboard in Resources */,
+				B5264DD11B92878600C3F68A /* Images.xcassets in Resources */,
+				B5264DD21B92878600C3F68A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,45 +152,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B598A7D21B91647B00EAA188 /* ViewController.m in Sources */,
-				B598A7CF1B91647B00EAA188 /* AppDelegate.m in Sources */,
-				B598A7CC1B91647B00EAA188 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B598A7DB1B91647B00EAA188 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B598A7E61B91647B00EAA188 /* JimmyKitTests.m in Sources */,
+				B5264DD41B92878600C3F68A /* ViewController.m in Sources */,
+				B5264DD31B92878600C3F68A /* main.m in Sources */,
+				B5264DCE1B92878600C3F68A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B598A7E11B91647B00EAA188 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B598A7C51B91647B00EAA188 /* Coding Golf */;
-			targetProxy = B598A7E01B91647B00EAA188 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		B598A7D31B91647B00EAA188 /* Main.storyboard */ = {
+		B5264DDD1B92883D00C3F68A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B598A7D41B91647B00EAA188 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B598A7D81B91647B00EAA188 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B598A7D91B91647B00EAA188 /* Base */,
+				B5264DDE1B92883D00C3F68A /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B5264DDF1B92883D00C3F68A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5264DE01B92883D00C3F68A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,7 +264,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JimmyKit/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Coding Golf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Coding Golf";
 			};
@@ -357,39 +275,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JimmyKit/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Coding Golf/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Coding Golf";
-			};
-			name = Release;
-		};
-		B598A7ED1B91647B00EAA188 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JimmyKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Coding GolfTests";
-			};
-			name = Debug;
-		};
-		B598A7EE1B91647B00EAA188 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JimmyKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Coding GolfTests";
 			};
 			name = Release;
 		};
@@ -410,15 +299,6 @@
 			buildConfigurations = (
 				B598A7EA1B91647B00EAA188 /* Debug */,
 				B598A7EB1B91647B00EAA188 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B598A7EC1B91647B00EAA188 /* Build configuration list for PBXNativeTarget "Coding GolfTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B598A7ED1B91647B00EAA188 /* Debug */,
-				B598A7EE1B91647B00EAA188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

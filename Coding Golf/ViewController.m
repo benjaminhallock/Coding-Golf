@@ -28,7 +28,7 @@
         {
             for (int x = i; x > -1; x--)
             {
-                NSLog(@"X %i", x);
+//                NSLog(@"X %i", x);
                 if (x == 0)
                 {
                     NSLog(@"done");
@@ -185,31 +185,30 @@
         case 1:
         case 2:
         case 3:
-            NSLog(@"Start over");
             [self Hole6];
             break;
         case 4:
         case 5:
-            NSLog(@"tough luck");
+            NSLog(@"fizz");
             [self Hole6];
         break;
         case 6:
         case 7:
         case 8:
         case 9:
-
+            [self Hole7];
         break;
 
         case 10:
-            NSLog(@"10 gold stars");
+            NSLog(@"drinks on me");
             [self Hole6];
         break;
 
         default:
             NSLog(@"Hopefully it was zero.");
+            [self Hole6];
             break;
     }
-    [self Hole7];
 }
 
 -(void)Hole7

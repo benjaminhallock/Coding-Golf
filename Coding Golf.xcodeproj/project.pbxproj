@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B598A7C61B91647B00EAA188 /* JimmyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JimmyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B598A7C61B91647B00EAA188 /* Coding Golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coding Golf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B598A7CA1B91647B00EAA188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B598A7CB1B91647B00EAA188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B598A7CD1B91647B00EAA188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		B598A7D41B91647B00EAA188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B598A7D61B91647B00EAA188 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B598A7D91B91647B00EAA188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B598A7DF1B91647B00EAA188 /* JimmyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JimmyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B598A7DF1B91647B00EAA188 /* Coding GolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coding GolfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B598A7E41B91647B00EAA188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B598A7E51B91647B00EAA188 /* JimmyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JimmyKitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,8 +72,8 @@
 		B598A7C71B91647B00EAA188 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B598A7C61B91647B00EAA188 /* JimmyKit.app */,
-				B598A7DF1B91647B00EAA188 /* JimmyKitTests.xctest */,
+				B598A7C61B91647B00EAA188 /* Coding Golf.app */,
+				B598A7DF1B91647B00EAA188 /* Coding GolfTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B598A7C51B91647B00EAA188 /* JimmyKit */ = {
+		B598A7C51B91647B00EAA188 /* Coding Golf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B598A7E91B91647B00EAA188 /* Build configuration list for PBXNativeTarget "JimmyKit" */;
+			buildConfigurationList = B598A7E91B91647B00EAA188 /* Build configuration list for PBXNativeTarget "Coding Golf" */;
 			buildPhases = (
 				B598A7C21B91647B00EAA188 /* Sources */,
 				B598A7C31B91647B00EAA188 /* Frameworks */,
@@ -134,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = JimmyKit;
+			name = "Coding Golf";
 			productName = JimmyKit;
-			productReference = B598A7C61B91647B00EAA188 /* JimmyKit.app */;
+			productReference = B598A7C61B91647B00EAA188 /* Coding Golf.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B598A7DE1B91647B00EAA188 /* JimmyKitTests */ = {
+		B598A7DE1B91647B00EAA188 /* Coding GolfTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B598A7EC1B91647B00EAA188 /* Build configuration list for PBXNativeTarget "JimmyKitTests" */;
+			buildConfigurationList = B598A7EC1B91647B00EAA188 /* Build configuration list for PBXNativeTarget "Coding GolfTests" */;
 			buildPhases = (
 				B598A7DB1B91647B00EAA188 /* Sources */,
 				B598A7DC1B91647B00EAA188 /* Frameworks */,
@@ -152,9 +152,9 @@
 			dependencies = (
 				B598A7E11B91647B00EAA188 /* PBXTargetDependency */,
 			);
-			name = JimmyKitTests;
+			name = "Coding GolfTests";
 			productName = JimmyKitTests;
-			productReference = B598A7DF1B91647B00EAA188 /* JimmyKitTests.xctest */;
+			productReference = B598A7DF1B91647B00EAA188 /* Coding GolfTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B598A7C11B91647B00EAA188 /* Build configuration list for PBXProject "JimmyKit" */;
+			buildConfigurationList = B598A7C11B91647B00EAA188 /* Build configuration list for PBXProject "Coding Golf" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B598A7C51B91647B00EAA188 /* JimmyKit */,
-				B598A7DE1B91647B00EAA188 /* JimmyKitTests */,
+				B598A7C51B91647B00EAA188 /* Coding Golf */,
+				B598A7DE1B91647B00EAA188 /* Coding GolfTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +238,7 @@
 /* Begin PBXTargetDependency section */
 		B598A7E11B91647B00EAA188 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B598A7C51B91647B00EAA188 /* JimmyKit */;
+			target = B598A7C51B91647B00EAA188 /* Coding Golf */;
 			targetProxy = B598A7E01B91647B00EAA188 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -349,7 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JimmyKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Coding Golf";
 			};
 			name = Debug;
 		};
@@ -359,14 +359,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JimmyKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Coding Golf";
 			};
 			name = Release;
 		};
 		B598A7ED1B91647B00EAA188 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -377,30 +376,27 @@
 				);
 				INFOPLIST_FILE = JimmyKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JimmyKit.app/JimmyKit";
+				PRODUCT_NAME = "Coding GolfTests";
 			};
 			name = Debug;
 		};
 		B598A7EE1B91647B00EAA188 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = JimmyKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JimmyKit.app/JimmyKit";
+				PRODUCT_NAME = "Coding GolfTests";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B598A7C11B91647B00EAA188 /* Build configuration list for PBXProject "JimmyKit" */ = {
+		B598A7C11B91647B00EAA188 /* Build configuration list for PBXProject "Coding Golf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B598A7E71B91647B00EAA188 /* Debug */,
@@ -409,21 +405,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B598A7E91B91647B00EAA188 /* Build configuration list for PBXNativeTarget "JimmyKit" */ = {
+		B598A7E91B91647B00EAA188 /* Build configuration list for PBXNativeTarget "Coding Golf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B598A7EA1B91647B00EAA188 /* Debug */,
 				B598A7EB1B91647B00EAA188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B598A7EC1B91647B00EAA188 /* Build configuration list for PBXNativeTarget "JimmyKitTests" */ = {
+		B598A7EC1B91647B00EAA188 /* Build configuration list for PBXNativeTarget "Coding GolfTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B598A7ED1B91647B00EAA188 /* Debug */,
 				B598A7EE1B91647B00EAA188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

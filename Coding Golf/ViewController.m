@@ -22,14 +22,14 @@
 
 -(void)Hole1
 {
-    for (float i = 0; i < 100000; i++)
+    for (int i = 0; i < 100000; i++)
     {
-        if ((int)i / 232 == 3)
+        if (i == 1993 * 21)
         {
-            for (int x = i; x > -1; x--)
+            for (int x = i; x >= 0; x--)
             {
 //                NSLog(@"X %i", x);
-                if (x == 0)
+                if (x == 6)
                 {
                     NSLog(@"done");
                     break;
@@ -142,7 +142,7 @@
 
         x = x / 4 / 3 / 365;
 
-    NSLog(@"%f Kids per year", x);
+    NSLog(@"I ca feed %f kids", x);
 
     [self Hole5];
 }
@@ -250,9 +250,10 @@
 {
     int x = arc4random_uniform(100000);
     if (![self isThisNumberPrime:x]) [self Hole9];
+    else NSLog(@"PRIME NUMBER %d", x);
 
-
-    for (int i = 1; i < INFINITY; i++)
+//  BONUS
+    for (int i = 1; i < 1000000; i++)
     {
         if ([self isThisNumberPrime:i])
         {

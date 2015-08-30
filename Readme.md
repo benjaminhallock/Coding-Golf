@@ -1,4 +1,4 @@
-Coding Golf - Programming Challenge for All Languaages
+Coding Golf - Programming Challenge
 ============
 
 Coding Golf is a 9-course challenge to build an app for almost all languages (iOS preferred) that completes the following challenges in order, triggering the next like dominos. The challanges range from simple math caculations to animationg UI components. The instructions are attached under this description and in the RTF file. THe project is a cheat sheet.
